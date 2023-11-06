@@ -1,0 +1,282 @@
+li, a{
+    font-family: Nunito Sans;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    width: 170px;
+    height: 60px; 
+}
+
+.nav__links {
+    list-style: none;
+    margin-right: -30px;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 20px 20px 20px;
+}
+
+.nav__links a {
+    text-decoration: none;
+    color : #596E79;
+    transition: color 0.3s;
+}
+
+.nav__links li a:hover {
+    color: #C7B198
+}
+section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.contact-section {
+    display: flex;
+    align-items: center;
+}
+
+.contact-left {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+.contact-left img{
+    width: 650px;
+}
+.contact-right {
+    flex: 1;
+    padding: 10px;
+    max-width: 50%; 
+}
+
+.contact-right h2 {
+    padding-top: 10px;
+    text-align: center;
+    font-family: Rubik;
+    font-weight: normal;
+    font-size: 42px;
+	color: #596E79;
+}
+
+.contact-form {
+    margin: 50px auto; 
+    max-width: 280px; 
+}
+
+.contact-form input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    background-color: #C7B198;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #31404B;
+}
+
+.container-grd{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 100px;
+}
+
+.container-grd .box{
+    position: relative;
+    width: 280px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 80px;
+}
+
+.container-grd .box i{
+    position: center;
+    justify-content: center;
+    margin-left: 130px;
+}
+
+.container-grd .box .bx{
+    position: center;
+    justify-content: center;
+    height: 120px;
+    margin-left: 90px;
+}
+
+.container-grd .box h3{
+    margin-top: 20px;
+    margin-left: 25px;
+    text-align: center;
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 22px;
+	color: #596E79; 
+}
+
+.container-grd .box p{
+    margin-top: 10px;
+    margin-left: 30px;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.custom-icon {
+    color: #596E79;
+}
+
+
+.section-footer{
+    margin-top: 50px;
+    background-color: #596E79;
+    padding-bottom: 40px;
+}
+
+.container-grd4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.container-grd4 .box{
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.container-grd4 .box2{
+    position: relative;
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.container-grd4 .box3{
+    position: relative;
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.container-grd4 .box .bx{
+    position: center;
+    justify-content: center;
+    height: 40px;
+}
+
+.container-grd4 .box h3{
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    font-size: 22px;
+	color: #FFFFFF;
+    margin-top: auto; 
+}
+
+.container-grd4 .box2 h3{
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    font-size: 22px;
+	color: #FFFFFF;
+    margin-top: auto; 
+}
+
+.container-grd4 .box3 h3{
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    font-size: 22px;
+	color: #FFFFFF;
+    margin-top: auto; 
+}
+
+.container-grd4 .box p{
+    text-align: left;
+    font-family: Nunito Sans;
+    font-weight: normal;
+    font-size: 16px;
+	color: #ffffff9a;
+    margin-top: 10px; 
+}
+
+.footer-list{
+    list-style: none;
+    margin: 0;
+    position: relative;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.form_email{
+	box-sizing : border-box;
+	width: 70%;
+	padding: 10px;
+	font-size: 12pt;
+	margin-bottom: 20px;
+	font-family: Nunito Sans;
+}
+
+.button{
+    background: #C7B198;
+    padding: 11px 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.copyright {
+    text-align: center;
+    background-color: #596E79;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 14px;
+}
